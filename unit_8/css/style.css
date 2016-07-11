@@ -1,0 +1,168 @@
+body {
+	font-size: 18px;
+}
+
+ .first-pic {max-width:750px; margin:0 auto;}
+ .first-pic img {width:100%; height:auto;}
+
+ header {
+ 	background-color: #FFED74;
+ 	border: 1px black solid;
+ 	padding: 2em;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700px;
+	font-size: 90px;
+	line-height: 40px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: #7F0000;
+	margin: .5em;
+}
+
+h2 {
+	text-align: center;
+	font-style: italic;
+	font-size: 1.5em;
+	padding: 0 0 .5em;
+	color: #FFFFFF;
+}
+
+h3 {
+	text-align: left;
+	font-family: Helvetica;
+	font-weight: bold;
+	border-bottom: 2px dotted;
+	display: inline-block;
+	font-size: 18px;
+	margin: 1em;
+}
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+ 	padding: 2em;
+}
+
+section {
+	border: 1px black solid;
+ 	padding: 2em;
+}
+
+p {
+	text-align: left;
+	font-size: 16px;
+	padding-left: 2em;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+ 	padding: 2em;
+}
+
+aside { 
+	background-color: #FFC675;
+	border: 1px black solid;
+ 	padding: 2em;
+ }
+
+.wrapper {
+	background-color: #FBFF00;
+	max-width: 960px;
+	margin: 0 auto;
+	border: 1px black solid;
+}
+
+img{
+	display: block;
+	margin: auto;
+}
+
+em{
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+ul { 
+	font-size: 14px;
+	text-align: left;
+	color: #4E17A1;
+	margin: 1em;
+ }
+
+ }
+.mail {
+	text-align: left;
+ }
+
+footer {
+	background-color: #FF957E;
+	text-align: center;
+	font-size: 10px;
+	border: 1px black solid;
+ 	padding: 2em;
+}
+@media only screen and (max-width: 800px) {
+
+nav {
+	float: none;
+}
+nav a {
+	margin: 0 1.6em .75em 0;
+}
+img {
+
+	width: 320px;
+}
+#about {
+	font-size: 1.4em;
+	line-height: 1.8em;
+	}
+}
+@media only screen and (max-width: 480px) {
+
+	h1,nav {
+		display: block;
+		text-align: center;
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 1em;
+		display: inline;
+	}
+	p, ul {
+		margin: 1.8em .6em 0;
+	}
+
+	li {
+		width: 80%;
+		outline-width: .5em;
+		padding: .5em;
+		height: 2em;
+		line-height: 2em;
+	}
+
+nav a {
+	margin: 0 1em 1em;
+	}
+
+img {
+	width: 230px;
+	}
+
+section, div {
+	width: 90%;
+	padding: .25%;
+}
+#service {
+	float: none;
+	font-size: 1.4em;
+	}
+}
+
