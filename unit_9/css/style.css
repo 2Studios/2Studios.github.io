@@ -1,0 +1,168 @@
+body {
+	font-size: 18px;
+}
+
+ .first-pic {max-width:260px; margin:.0em;}
+ .first-pic img {width:70%; height:auto;}
+ .first-pic {display: inline-block;}
+ .second-pic img {max-width: 450px; height: auto;}
+ .third-pic img {height: 100%;}
+ 
+ header {
+ 	background-color: #ffffff;
+ 	padding: 10px 0 20px 150px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	font-weight: normal;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	font-size: 46px;
+	color: #000000;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	margin: 2em;
+}
+
+nav {
+	background-color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+ 	display: inline-block;
+ 	padding-bottom: 20px;
+ 	padding-right: 0px;
+ 	width: 700px
+} 
+
+nav a {
+	display: inline-block;
+	float: right;
+	padding: 6px 10px;
+	color: #000000;
+	text-align: right;
+}
+
+nav	a: hover {
+	background-color: #000000;
+}
+
+.column {
+	float: left;
+  	height: 450px;
+	margin: 0;
+}
+
+#column1 {
+  width: 360px;
+  padding: 0 0px 90px 0px;
+  display: inline-block;
+}
+
+#column2 {
+  background: url('../images/brackets.png') top no-repeat;
+  width: 400px;
+  display: block;
+}
+
+#column3 {
+  width: 360px;
+  padding: 0 0 90px 0;
+  display: inline-block;
+}
+
+
+p {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 20px;
+}
+
+.wrapper {
+	background-color: #ffffff;
+	width: 1120px;
+	margin: 0 auto;
+	border: .5px black solid;
+	height: 960px
+}
+
+img {
+	display: inline-block;
+	padding-left: 0px
+}
+
+em {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.mail {
+	text-align: left;
+ }
+
+footer {
+	background-color: #ffffff;
+	text-align: center;
+	font-size: 10px;
+ 	padding-top: 20px;
+ 	margin-top: 20px;
+}
+
+.clear {clear:both;}
+
+.igrow {background:url('../images/banner.jpg') no-repeat top center; padding:10px 0 0 0;}
+.igleft {float:left; width:710px; min-height:80px; background:transparent;}
+.igicon {float:left; display:inline-block; width:141px; min-height:200px; border-right:1px solid #333;}
+.r {background:#C00;}
+.b {background:#36C;}
+.o {background:#F60;}
+.igright {float:right; width:410px; min-height:200px; background:#ffffff;}
+
+.powerful a {text-align:center; color:#ffffff; text-transform:uppercase; letter-spacing:.15em; text-decoration:none; padding:5px 15px; background:#f60; font-weight:400;}
+.powerful a:hover {text-align:center; color:#ffffff; text-transform:uppercase; letter-spacing:.15em; text-decoration:none; padding:5px 15px; background:#36C; font-weight:400;}
+
+@media only screen and (max-width: 800px) {
+
+nav {
+	float: none;
+}
+nav a {
+	margin: 0 1.6em .75em 0;
+}
+img {
+
+	width: 320px;
+}
+#about {
+	font-size: 1.4em;
+	line-height: 1.8em;
+	}
+}
+@media only screen and (max-width: 480px) {
+
+	h1,nav {
+		display: block;
+		text-align: center;
+		font-size: 40px;
+	}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
